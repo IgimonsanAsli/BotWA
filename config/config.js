@@ -16,7 +16,7 @@ const config = {
     },
 
      newAI: {
-        apiUrl: 'https://ai-production-9984.up.railway.app/ask',
+        apiUrl: 'https://ai-production-c218.up.railway.app/ask',
         timeout: 30000, // 30 seconds
         maxHistoryPerUser: 10,
         cleanupInterval: 30 * 60 * 1000, // 30 minutes

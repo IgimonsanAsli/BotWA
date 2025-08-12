@@ -2,7 +2,7 @@ const axios = require('axios');
 
 class NewAIHandler {
     constructor() {
-        this.apiUrl = 'https://aifix-production.up.railway.app/ask';
+        this.apiUrl = 'https://ai-production-c218.up.railway.app/ask';
         this.userSessions = new Map();
         this.requestCount = 0;
         this.lastCleanup = Date.now();
