@@ -1093,7 +1093,7 @@ async batchProcess(messages, commandName, batchHandler) {
     async getPinterestImages(query, limit = 20) {
         try {
             const axios = require('axios');
-            const response = await axios.get(`http://apipinterest-production-2895.up.railway.app/api/search`, {
+            const response = await axios.get(`http://api-pinterest-production.up.railway.app/api/search`, {
                 params: {
                     q: query,
                     limit: limit
